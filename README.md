@@ -1,6 +1,6 @@
 # upd-cli
 
-Find and run the locally installed upd utility.
+Find and run the locally installed `upd` utility.
 
 ## Description
 

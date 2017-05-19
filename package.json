@@ -1,7 +1,7 @@
 {
   "name": "@jeanlauliac/upd-cli",
   "version": "0.1.0",
-  "description": "Find and run the locally installed upd utility.",
+  "description": "Find and run the locally installed `upd` utility",
   "preferGlobal": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,5 +12,9 @@
   "files": [
     "upd-cli.js",
     "README.md"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeanlauliac/upd-cli.git"
+  }
 }
