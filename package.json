@@ -1,0 +1,16 @@
+{
+  "name": "@jeanlauliac/upd-cli",
+  "version": "0.1.0",
+  "description": "Find and run the locally installed upd utility.",
+  "preferGlobal": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jean Lauliac <jean@lauliac.com>",
+  "license": "MIT",
+  "bin": {"upd": "upd-cli.js"},
+  "files": [
+    "upd-cli.js",
+    "README.md"
+  ]
+}
