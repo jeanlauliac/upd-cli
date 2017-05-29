@@ -23,12 +23,12 @@ const path = require('path');
   const result = child_process.spawnSync(updPath, process.argv.slice(2), {
     stdio: 'inherit',
   });
-  if (process.error) {
-    console.error('fatal: failed to execute `upd\': %s', process.error.message);
+  if (result.error) {
+    console.error('fatal: failed to execute `upd\': %s', result.error.message);
     process.exitCode = 49;
     return;
   }
-  if (process.signal) {
+  if (result.signal) {
     process.exitCode = 50;
     return;
   }
