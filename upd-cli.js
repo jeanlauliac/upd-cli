@@ -9,7 +9,7 @@ const path = require('path');
   let dirPath, updPath;
   do {
     dirPath = nextPath;
-    updPath = path.resolve(dirPath, 'node_modules/@jeanlauliac/upd/dist/upd');
+    updPath = path.resolve(dirPath, 'node_modules/@jeanlauliac/upd/bootstrap/upd');
     exists = fs.existsSync(updPath);
     nextPath = path.dirname(dirPath)
   } while (!exists && nextPath != dirPath);
